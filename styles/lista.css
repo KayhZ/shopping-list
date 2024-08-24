@@ -1,0 +1,40 @@
+.line-pontilhada{
+    border-top: 2px dotted #f55b64;
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+}
+
+.lista_titulo{
+    color: #f55b64;
+    padding:  0.5em 0 0.5rem 0;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista_conteudo{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+}
+.lista_conteudo li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 1.125rem 0;
+}
+
+.icones{
+    display: flex;
+    gap: 10px;
+}
+
+.lista_comprados{
+    text-decoration: line-through var(--marinho);
+}
+
+
