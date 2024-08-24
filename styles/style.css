@@ -18,4 +18,6 @@ body{
     font-family: var(--fonte-principal);
     font-weight: 400;
     color: var(--marinho);
+    justify-content: center;
+    align-items: center;
 }

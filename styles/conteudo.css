@@ -3,11 +3,10 @@
     flex-direction: column;
     justify-items: center;
     border-radius: 0.625rem;
-    padding: 2.5em 1em 6em 1em;
-    margin: 1em;
-    background-color: var(--branco);
-
-
+    max-width: 400px;
+    margin: 2.5em 1em 6em 1em;
+    padding: 0 3.5rem;
+    background-color: var(--branco); 
 }
 .conteudo_imagem{
     text-align: center;
@@ -64,4 +63,32 @@
     background-color: var(--ocre);
 }
 
+@media (min-width:768px) {
 
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        border-radius: 0.625rem;
+        max-width: 400px;
+        margin: 4rem auto;
+        padding: 0 3.5rem;
+        background-color: var(--branco); 
+    }
+    
+}
+
+@media (min-width:1025px) {
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        border-radius: 0.625rem;
+        max-width: 400px;
+        margin: 4rem auto;
+        padding: 0 3.5rem;
+        background-color: var(--branco); 
+    }
+    
+}
