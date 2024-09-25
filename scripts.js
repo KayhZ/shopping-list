@@ -102,10 +102,10 @@ function adicionarItem(evento) {
     itemDaLista.appendChild(containerItemLista);
     itemDaLista.appendChild(itemData);
     listaDeCompras.appendChild(itemDaLista)
-    verificarListaVazia(listaDeCompras);
+    verificarListaVazia(lista);
 }
 
 const lista2 = document.querySelector("#lista-de-compras");
 const lista = document.querySelector("#lista-comprados");
-verificaListaComprados(listaComprados);
-verificarListaVazia(listaDeCompras);
+verificaListaComprados(lista);
+verificarListaVazia(lista2);
